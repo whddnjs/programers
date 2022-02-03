@@ -1,3 +1,5 @@
+// https://programmers.co.kr/learn/courses/30/lessons/77484
+
 function solution(lottos, win_nums) {
   var answer = [];
   let low_count = 0;
@@ -57,8 +59,8 @@ function solution(lottos, win_nums) {
       answer.unshift(6);
       break;
   }
-  console.log(answer);
+
   return answer;
 }
 
-solution([45, 4, 35, 20, 3, 9], [20, 9, 3, 45, 4, 35]);
+console.log(solution([45, 4, 35, 20, 3, 9], [20, 9, 3, 45, 4, 35]));
