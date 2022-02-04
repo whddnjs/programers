@@ -12,3 +12,10 @@ function solution(phone_number) {
   return arr.join('');
 }
 solution('01033334444');
+
+function solution(phone_number) {
+  const arr = phone_number.split('');
+
+  return arr.fill('*', 0, arr.length - 4).join('');
+}
+console.log(solution('01033334444'));
